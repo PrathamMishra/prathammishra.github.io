@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "hdlf99t11t");
+</script>
+</head>
+<body>
+    <h1>My First Heading</h1>
+    <p>My first paragraph.</p>
+    <div id="test" >
+        <input name="name" id="name" />
+        <input name="age" id="age"/>
+        <a href="javascript:void(0)">Dead link</a>
+        <a href="/fullstory">Live Link</a>
+        <button id="dead">Dead Button</button>
+        <button onclick="javascript:console.log('clicked')">Consoling Button</button>
+        <button onclick="javascript:fetch('clicked')">Network Request Button</button>
+        <button id="mutate">Mutation Button</button>
+    </div>
+    <canvas height="50" width="50"></canvas>
+    <div id="app">
+      <img src="https://images.unsplash.com/photo-1449034446853-66c86144b0ad?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1740&amp;q=80" alt="Girl in a jacket" width="500" height="600">
+      <img src="https://images.unsplash.com/photo-1449034446853-66c86144b0ad?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1740&amp;q=80" alt="Girl in a jacket" width="500" height="600">
+      <img src="https://images.unsplash.com/photo-1449034446853-66c86144b0ad?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1740&amp;q=80" alt="Girl in a jacket" width="500" height="600">
+      <img src="https://images.unsplash.com/photo-1449034446853-66c86144b0ad?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1740&amp;q=80" alt="Girl in a jacket" width="500" height="600">
+    </div>
+    <script>    
+        document.querySelector("#mutate").onclick = function(){
+            const h2 = document.createElement('h2');
+            h2.innerText = 'New Tag';
+            document.body.append(h2);
+        }
+    </script>
+</body>
+</html>
