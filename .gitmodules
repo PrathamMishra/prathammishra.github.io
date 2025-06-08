@@ -4,3 +4,6 @@
 [submodule "boolbox"]
 	path = boolbox
 	url = https://github.com/PrathamMishra/boolbox.git
+[submodule "LogoLand"]
+	path = LogoLand
+	url = https://github.com/PrathamMishra/LogoLand.git
