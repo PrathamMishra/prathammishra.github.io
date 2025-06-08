@@ -1,3 +1,6 @@
 [submodule "mamba-mania"]
 	path = mamba-mania
 	url = https://github.com/PrathamMishra/mamba-mania.git
+[submodule "boolbox"]
+	path = boolbox
+	url = https://github.com/PrathamMishra/boolbox
