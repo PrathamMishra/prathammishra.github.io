@@ -3,7 +3,7 @@
 	url = https://github.com/PrathamMishra/mamba-mania.git
 [submodule "boolbox"]
 	path = boolbox
-	url = https://github.com/PrathamMishra/boolbox.git
+	url = https://github.com/PrathamMishra/BoolBox.git
 [submodule "LogoLand"]
 	path = LogoLand
 	url = https://github.com/PrathamMishra/LogoLand.git
